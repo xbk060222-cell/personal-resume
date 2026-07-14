@@ -1,0 +1,45 @@
+html {
+	--accent: #B8451A;
+	--accent-light: #D35400;
+	--bg: #FAFAF8;
+	--bg-secondary: #F3F2EF;
+	--text: #1A1A1A;
+	--text-secondary: #555555;
+	--text-muted: #888888;
+	--border: #E5E3DF;
+	--border-light: #EEEDEB;
+	--notice-bg: #FDF6F0;
+	--notice-border: var(--accent);
+	--card-bg: #FFFFFF;
+	--shadow: rgba(0, 0, 0, 0.04);
+	--link: var(--accent);
+	--link-hover: var(--accent-light);
+	--timeline-line: var(--border);
+	--timeline-dot: var(--accent);
+	--social-bg: transparent;
+	--social-border: var(--border);
+	--social-hover: var(--accent);
+}
+
+html[data-theme="dark"] {
+	--accent: #E07A4A;
+	--accent-light: #F09060;
+	--bg: #141414;
+	--bg-secondary: #1C1C1C;
+	--text: #E8E6E3;
+	--text-secondary: #A8A6A3;
+	--text-muted: #787674;
+	--border: #2E2E2E;
+	--border-light: #252525;
+	--notice-bg: #1E1A17;
+	--notice-border: var(--accent);
+	--card-bg: #1C1C1C;
+	--shadow: rgba(0, 0, 0, 0.2);
+	--link: var(--accent);
+	--link-hover: var(--accent-light);
+	--timeline-line: var(--border);
+	--timeline-dot: var(--accent);
+	--social-bg: transparent;
+	--social-border: var(--border);
+	--social-hover: var(--accent);
+}
